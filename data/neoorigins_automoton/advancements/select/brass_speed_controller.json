@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "interact": {
+      "trigger": "minecraft:player_interacted_with_block",
+      "conditions": {
+        "block": "create:brass_casing"
+      }
+    }
+  },
+  "rewards": {
+    "function": "neoorigins_automoton:select/brass_speed_controller"
+  },
+  "display": {
+    "title": "Select: Brass Speed Controller (hidden)",
+    "description": "Interact with the configured block to select this ability (placeholder).",
+    "icon": {
+      "item": "minecraft:clock"
+    },
+    "hidden": true
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Automaton (skeleton)",
+  "description": "A placeholder origin entry. Implement full power JSONs and this origin JSON to match NeoOrigins' expected schema.",
+  "type": "origins:origin",
+  "powers": []
+}

@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "interact": {
+      "trigger": "minecraft:player_interacted_with_block",
+      "conditions": {
+        "block": "create:andesite_casing"
+      }
+    }
+  },
+  "rewards": {
+    "function": "neoorigins_automoton:select/andesite_hand_crank"
+  },
+  "display": {
+    "title": "Select: Andesite Hand Crank (hidden)",
+    "description": "Interact with the configured block to select this ability (placeholder).",
+    "icon": {
+      "item": "minecraft:lever"
+    },
+    "hidden": true
+  }
+}

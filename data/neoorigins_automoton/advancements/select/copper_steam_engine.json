@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "interact": {
+      "trigger": "minecraft:player_interacted_with_block",
+      "conditions": {
+        "block": "create:steam_engine"
+      }
+    }
+  },
+  "rewards": {
+    "function": "neoorigins_automoton:select/copper_steam_engine"
+  },
+  "display": {
+    "title": "Select: Copper Steam Engine (hidden)",
+    "description": "Interact with the configured block to select this ability (placeholder).",
+    "icon": {
+      "item": "minecraft:furnace"
+    },
+    "hidden": true
+  }
+}

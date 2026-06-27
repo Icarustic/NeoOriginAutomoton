@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "interact": {
+      "trigger": "minecraft:player_interacted_with_block",
+      "conditions": {
+        "block": "minecraft:cardboard_box"
+      }
+    }
+  },
+  "rewards": {
+    "function": "neoorigins_automoton:select/cardboard_box"
+  },
+  "display": {
+    "title": "Select: Cardboard Box (hidden)",
+    "description": "Interact with the configured block to select this extra passive (placeholder).",
+    "icon": {
+      "item": "minecraft:paper"
+    },
+    "hidden": true
+  }
+}
