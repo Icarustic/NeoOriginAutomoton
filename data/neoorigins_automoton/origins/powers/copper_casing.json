@@ -1,0 +1,10 @@
+{
+  "type": "origins:active_self",
+  "name": "Copper Casing (Copper)",
+  "description": "Copper casing selection (no passive effect).",
+  "key": "secondary",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "function neoorigins_automoton:select/copper_casing"
+  }
+}

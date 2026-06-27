@@ -1,0 +1,10 @@
+{
+  "type": "origins:active_self",
+  "name": "Mechanical Drill (Andesite)",
+  "description": "Toggle drill for faster break speed on blocks with hardness < 4. Uses stress per block.",
+  "key": "primary",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "function neoorigins_automoton:abilities/andesite/mechanical_drill_toggle"
+  }
+}

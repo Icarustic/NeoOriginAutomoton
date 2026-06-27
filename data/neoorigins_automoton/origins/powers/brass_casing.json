@@ -1,0 +1,10 @@
+{
+  "type": "origins:active_self",
+  "name": "Brass Casing (Brass)",
+  "description": "Brass casing selection (no passive effect).",
+  "key": "tertiary",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "function neoorigins_automoton:select/brass_casing"
+  }
+}

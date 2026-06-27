@@ -1,0 +1,38 @@
+{
+  "name": { "text": "Automaton" },
+  "description": { "text": "The Automaton origin — choose Create-based abilities by interacting with the matching blocks. Uses the neoorigins_automoton datapack functions for runtime behaviour." },
+  "icon": "create:andesite_casing",
+  "impact": "medium",
+  "powers": [
+    "neoorigins_automoton:base_passives",
+    "neoorigins_automoton:base_stress_handler",
+
+    "neoorigins_automoton:andesite_hand_crank",
+    "neoorigins_automoton:andesite_toolbox",
+    "neoorigins_automoton:andesite_wrench",
+    "neoorigins_automoton:andesite_mechanical_press",
+    "neoorigins_automoton:andesite_encased_fan",
+    "neoorigins_automoton:andesite_mechanical_drill",
+    "neoorigins_automoton:andesite_weighted_ejector",
+
+    "neoorigins_automoton:copper_casing",
+    "neoorigins_automoton:copper_steam_engine",
+    "neoorigins_automoton:copper_fluid_tank",
+    "neoorigins_automoton:copper_diving_helmet",
+    "neoorigins_automoton:copper_valve",
+    "neoorigins_automoton:copper_frogport",
+
+    "neoorigins_automoton:brass_casing",
+    "neoorigins_automoton:brass_rotational_speed_controller",
+    "neoorigins_automoton:brass_mechanical_crafter",
+    "neoorigins_automoton:brass_potato_cannon",
+    "neoorigins_automoton:brass_blaze_burner",
+
+    "neoorigins_automoton:extra_cardboard_box",
+    "neoorigins_automoton:extra_stressometer",
+    "neoorigins_automoton:extra_speedometer",
+    "neoorigins_automoton:extra_item_vault",
+    "neoorigins_automoton:extra_toolbox_vault",
+    "neoorigins_automoton:extra_clutch"
+  ]
+}

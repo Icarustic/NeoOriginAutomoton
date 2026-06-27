@@ -1,0 +1,10 @@
+{
+  "type": "origins:active_self",
+  "name": "Potato Cannon (Brass)",
+  "description": "Shoot potatoes as projectiles. 50 stress/shot, 15 tick cooldown.",
+  "key": "tertiary",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "function neoorigins_automoton:abilities/brass/potato_cannon_fire"
+  }
+}

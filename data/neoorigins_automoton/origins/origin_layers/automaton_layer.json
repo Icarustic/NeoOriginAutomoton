@@ -1,0 +1,7 @@
+{
+  "origins": [ "neoorigins_automoton:automaton_full" ],
+  "display": {
+    "name": { "text": "Automaton" },
+    "description": { "text": "Create-based Automaton origin (Automaton abilities grouped into Andesite/Copper/Brass + Extras)." }
+  }
+}

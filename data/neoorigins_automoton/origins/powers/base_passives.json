@@ -1,0 +1,17 @@
+{
+  "type": "origins:passive",
+  "name": "Iron Clad (max health & armor)",
+  "description": "Increased max health (+5 hearts) and +2 armor.",
+  "attribute_modifiers": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "operation": "addition",
+      "value": 10
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "operation": "addition",
+      "value": 2
+    }
+  ]
+}

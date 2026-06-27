@@ -1,0 +1,6 @@
+{
+  "type": "origins:passive",
+  "name": "Stressometer (Extra)",
+  "description": "Show numeric Stress in the UI. Implemented by datapack functions.",
+  "hidden": false
+}

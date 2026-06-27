@@ -1,0 +1,6 @@
+{
+  "type": "origins:passive",
+  "name": "Cardboard Box (Extra)",
+  "description": "Crouch to go invisible. Prototype implementation via datapack functions.",
+  "hidden": false
+}

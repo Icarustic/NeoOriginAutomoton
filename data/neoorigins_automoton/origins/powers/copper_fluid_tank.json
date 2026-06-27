@@ -1,0 +1,10 @@
+{
+  "type": "origins:active_self",
+  "name": "Fluid Tank (Copper)",
+  "description": "Store up to 4 buckets of water/lava. Generates cobblestone when using water+lava. Uses stress per bucket.",
+  "key": "secondary",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "function neoorigins_automoton:abilities/copper/fluid_tank_use"
+  }
+}

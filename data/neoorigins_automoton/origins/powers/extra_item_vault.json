@@ -1,0 +1,6 @@
+{
+  "type": "origins:passive",
+  "name": "Item Vault (Extra)",
+  "description": "Stores more items on death but applies slowness while carrying the vault (prototype).",
+  "hidden": false
+}

@@ -1,0 +1,17 @@
+{
+  "type": "origins:food_replacement",
+  "name": "Fuel (eat coal/charcoal/logs)",
+  "description": "Allows eating coal, charcoal, and burnable logs as food. Implemented in datapack functions.",
+  "items": [
+    "minecraft:coal",
+    "minecraft:charcoal",
+    "minecraft:oak_log",
+    "minecraft:spruce_log",
+    "minecraft:birch_log",
+    "minecraft:jungle_log",
+    "minecraft:acacia_log",
+    "minecraft:dark_oak_log"
+  ],
+  "nutrition": 10,
+  "saturation": 6
+}

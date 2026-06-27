@@ -1,0 +1,6 @@
+{
+  "type": "origins:passive",
+  "name": "Clutch (Extra)",
+  "description": "Clutch: survive one lethal hit and be saved with 2 hearts. 45 minute cooldown. Implemented by datapack logic.",
+  "hidden": false
+}

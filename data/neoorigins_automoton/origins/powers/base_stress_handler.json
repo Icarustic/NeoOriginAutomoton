@@ -1,0 +1,6 @@
+{
+  "type": "origins:execute_command",
+  "name": "Stress handler (datapack-powered)",
+  "description": "Runs the per-player tick function in the datapack to manage stress and upkeep.",
+  "command": "function neoorigins_automoton:player/tick_player"
+}

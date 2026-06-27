@@ -1,0 +1,6 @@
+{
+  "type": "origins:passive",
+  "name": "Toolbox Vault (Extra)",
+  "description": "Prototype pairing to the toolbox (3x3) and larger vault storage; separated for clarity.",
+  "hidden": false
+}

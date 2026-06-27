@@ -1,0 +1,10 @@
+{
+  "type": "origins:active_self",
+  "name": "Wrench (Andesite)",
+  "description": "Hold primary to repair yourself over time. Replaces Auto Repair.",
+  "key": "primary",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "function neoorigins_automoton:abilities/andesite/wrench_hold"
+  }
+}

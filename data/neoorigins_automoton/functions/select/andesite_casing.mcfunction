@@ -1,8 +1,10 @@
-# When player interacts with Andesite Casing, run this function to open a small UI or cycle primary abilities.
-# For simplicity, we set neo_primary to 0 (Andesite Casing "do nothing") and tag player as our origin.
+# Update selection functions to use the NeoOrigins command to set the player's origin using our origin_layer
+
+# Andesite casing selection
 scoreboard players set @s neo_primary 0
 tag @s add neoorigins_automoton
-# Try to set origin via Origins if available (best-effort)
-execute if entity @s run origins set @s neoorigins_automoton:automaton_full
+# Set origin using NeoOrigins command: /origin set <target> <layer> <origin>
+origin set @s neoorigins_automoton:automaton_layer neoorigins_automoton:automaton_full
+
 # Inform
-tellraw @s {"rawtext":[{"text":"Automaton: Andesite Age selected (default casing). Primary set to Andesite Casing."}]}
+tellraw @s [{"text":"Automaton: Andesite Age selected (default casing). Primary set to Andesite Casing."}]

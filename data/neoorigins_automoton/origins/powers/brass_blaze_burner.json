@@ -1,0 +1,10 @@
+{
+  "type": "origins:active_self",
+  "name": "Blaze Burner (Brass)",
+  "description": "Instantly smelt items in main hand. Fire-immune while active. Disabled in water.",
+  "key": "tertiary",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "function neoorigins_automoton:abilities/brass/blaze_burner_use"
+  }
+}

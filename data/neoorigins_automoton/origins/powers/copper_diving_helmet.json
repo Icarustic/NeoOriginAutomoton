@@ -1,0 +1,6 @@
+{
+  "type": "origins:passive",
+  "name": "Diving Helmet (Copper)",
+  "description": "Breathe & see underwater; swim faster. Constant stress drain handled by datapack functions.",
+  "hidden": false
+}
