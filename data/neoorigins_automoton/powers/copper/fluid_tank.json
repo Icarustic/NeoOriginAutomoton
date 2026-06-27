@@ -1,0 +1,10 @@
+{
+  "type": "origins:active_self",
+  "name": "Fluid Tank (secondary)",
+  "description": "Hold to store/consume up to 4 buckets of water and lava. Left/right secondary to use water/lava.",
+  "key": "secondary",
+  "action": {
+    "type": "origins:execute_command",
+    "command": "function neoorigins_automoton:abilities/copper/fluid_tank_use"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "interact": {
+      "trigger": "minecraft:player_interacted_with_block",
+      "conditions": {
+        "block": "create:brass_casing"
+      }
+    }
+  },
+  "rewards": {
+    "function": "neoorigins_automoton:select/brass_casing"
+  },
+  "display": {
+    "title": "Select: Brass Casing (hidden)",
+    "description": "Interact with the configured block to select Brass Age tertiary.",
+    "icon": {
+      "item": "create:brass_casing"
+    },
+    "hidden": true
+  }
+}

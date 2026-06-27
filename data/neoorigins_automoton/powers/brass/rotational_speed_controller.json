@@ -1,0 +1,10 @@
+{
+  "type": "origins:active_self",
+  "name": "Rotational Speed Controller (tertiary)",
+  "description": "Hold tertiary to boost speed at the cost of stress. Allows jumping when sped up.",
+  "key": "tertiary",
+  "action": {
+    "type": "origins:execute_command",
+    "command": "function neoorigins_automoton:abilities/brass/speed_controller_hold"
+  }
+}

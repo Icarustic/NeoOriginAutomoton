@@ -1,0 +1,10 @@
+{
+  "type": "origins:active_self",
+  "name": "Hand Crank (primary)",
+  "description": "De-stress while holding the primary key. Other players can crank you by right-clicking.",
+  "key": "primary",
+  "action": {
+    "type": "origins:execute_command",
+    "command": "function neoorigins_automoton:abilities/andesite/hand_crank_hold"
+  }
+}

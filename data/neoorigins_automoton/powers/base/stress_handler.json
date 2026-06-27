@@ -1,0 +1,6 @@
+{
+  "type": "origins:execute_command",
+  "name": "Stress handler (datapack-powered)",
+  "description": "Connects the origin to the datapack stress/ability system. This power runs the per-player tick function when present (if the Origins implementation supports command-execution powers). Additionally, the datapack independently detects tagged players so this power is optional but helpful when available.",
+  "command": "function neoorigins_automoton:player/tick_player"
+}

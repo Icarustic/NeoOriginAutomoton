@@ -1,0 +1,10 @@
+{
+  "type": "origins:active_self",
+  "name": "Mechanical Drill (primary)",
+  "description": "Activate drill to break blocks faster (hardness < 4) and gain mining efficiency. Uses stress per block.",
+  "key": "primary",
+  "action": {
+    "type": "origins:execute_command",
+    "command": "function neoorigins_automoton:abilities/andesite/mechanical_drill_toggle"
+  }
+}

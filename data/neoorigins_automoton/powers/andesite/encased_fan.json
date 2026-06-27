@@ -1,0 +1,10 @@
+{
+  "type": "origins:active_self",
+  "name": "Encased Fan (primary)",
+  "description": "Hold primary to boost yourself into the air (slow falling while active).",
+  "key": "primary",
+  "action": {
+    "type": "origins:execute_command",
+    "command": "function neoorigins_automoton:abilities/andesite/encased_fan"
+  }
+}

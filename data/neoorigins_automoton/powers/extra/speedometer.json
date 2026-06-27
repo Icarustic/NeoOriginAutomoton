@@ -1,0 +1,6 @@
+{
+  "type": "origins:passive",
+  "name": "Speedometer (extra)",
+  "description": "Show numeric movement speed in m/s. Implemented by datapack UI functions.",
+  "hidden": false
+}

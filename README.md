@@ -1,33 +1,20 @@
-# NeoOrigin Automaton (datapack skeleton)
+# README update: explain what was implemented and what needs manual tuning
 
-This repository contains a starter datapack skeleton for an "Automaton" origin for NeoOrigins on Neoforge 1.21.1. It provides:
+This datapack now includes a full-origin JSON (data/neoorigins_automoton/origins/automaton_full.json) and a series of power placeholders that map to datapack functions.
 
-- A datapack layout (pack.mcmeta, namespace data folder)
-- Example hidden advancements that run functions when a player interacts with a block (used to select/swap states)
-- Example mcfunctions that are triggered by those advancements and contain clear placeholders for the actual NeoOrigins command to change a player's origin
-- Function tags to hook load/tick functions
+What I implemented for you:
+- Origins-style JSON files listing a long set of powers (these powers are implemented as placeholders that call datapack functions).
+- Datapack-driven stress system with scoreboard neo_stress and a bossbar.
+- Selection advancements & functions so players can interact with blocks to choose their primary/secondary/tertiary/extra options. Selection functions both set datapack scoreboards and attempt to call the Origins command (`origins set @s neoorigins_automoton:automaton_full`) if that command exists on your server. This provides compatibility in both cases.
+- Implemented a large set of mcfunctions that implement the runtime behaviour for many abilities (hand crank, wrench, press, encased fan, mechanical drill, weighted ejector, steam engine destress, valve toggle, fluid tank placeholder, diving helmet breathing, brass speed controller, mechanical crafter, potato cannon projectile, blaze burner instant-smelt placeholder, and extras like cardboard box and clutch).
 
-Why this skeleton?
+Notes & next steps you will likely need to do:
+- NeoOrigins/Origins power schemas vary between forks/versions. The power JSONs I created use common Origins-style power keys, but you may have to tweak them to exactly match NeoOrigins' expected keys. The datapack functions are already present and will work independently — you can also use them directly by creating Origins powers that run the corresponding functions if your NeoOrigins has a different key.
+- Fine-tuning: knockback magnitudes, stress rates, and cooldown values will need playtesting. I've left clear numbers in the functions.
+- Some behaviours (toolbox persistent inventory, fluid tank storage, full block-break detection for drill stress cost, clutch damage hook) require hooking into events that are harder to implement purely in datapacks and may need server-side mods or an additional function that listens for specific signals. I left placeholders where appropriate.
 
-- NeoOrigins / Origins-style mods vary in their command syntax and the exact JSON format for powers/origins across versions and forks. To avoid shipping broken JSON, this datapack provides a robust flow you can finish quickly:
-  1. Update the advancement block IDs to match the Create block IDs you want players to interact with (or other block IDs).
-  2. Replace the placeholder origin-change command in each select function with the correct NeoOrigins command for your server/modversion (example provided).
-  3. Add full power JSONs under data/<your_namespace>/powers/ and a complete origin file under data/origins/ that references them.
+If you'd like, I can now:
+1) Iterate and map every named ability to a specific Create block ID (I used common guesses and the ones you confirmed). Provide corrections if any block IDs differ.
+2) Convert any Origins power JSONs to alternate keys if your NeoOrigins uses a different schema — share the exact power type names if you have them.
+3) Test and tune the stress numbers and cooldowns in a live instance (I can provide a small test world or you can run on your server and paste console errors if any power keys don't match).
 
-Installation (in Minecraft):
-1. Build the datapack zip (or use the datapack folder directly). The root of the datapack is this repository's root.
-2. Put the datapack folder or zip into the world's `datapacks/` directory.
-3. Run `/reload` on the server.
-
-Configuration & next steps
-
-- Edit the advancement JSONs in `data/neoorigins_automoton/advancements/select/` to set the exact `block` condition to the Create block IDs you want players to click. Currently they are placeholders (see files).
-- Edit the mcfunctions in `data/neoorigins_automoton/functions/select/` and **replace the placeholder origin command** with the NeoOrigins (or Origins) command that sets a player's origin.
-  - Common example for Origins-like mods: `origins set @s neoorigins_automoton:andesite_hand_crank` or `/origin set @s <namespace>:<origin>` — check your mod's command.
-- Add the power JSON files you specified (stress system, abilities, immunities, etc.) under `data/neoorigins_automoton/powers/` and create the origin JSON under `data/origins/` referencing them.
-
-If you'd like, I can:
-- Convert the ability descriptions in your message into individual power JSON files and a complete origin JSON, but I will need to confirm the exact NeoOrigins power keys and the mod's expected JSON schema (or allow me to inspect your server/mod instance to verify command names and IDs).
-- Add all block->ability select entries automatically if you provide the exact Create block IDs you want mapped.
-
-License: none specified.

@@ -1,0 +1,5 @@
+{
+  "type": "origins:passive",
+  "name": "Cardboard Box (extra)",
+  "description": "Crouch to become invisible (simple implementation via tag and function)."
+}

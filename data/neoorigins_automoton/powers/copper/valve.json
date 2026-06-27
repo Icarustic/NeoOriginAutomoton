@@ -1,0 +1,10 @@
+{
+  "type": "origins:active_self",
+  "name": "Valve (toggle)",
+  "description": "Toggle to de-stress faster at the cost of movement speed.",
+  "key": "secondary",
+  "action": {
+    "type": "origins:execute_command",
+    "command": "function neoorigins_automoton:abilities/copper/valve_toggle"
+  }
+}

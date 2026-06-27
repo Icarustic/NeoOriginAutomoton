@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "interact": {
+      "trigger": "minecraft:player_interacted_with_block",
+      "conditions": {
+        "block": "create:andesite_casing"
+      }
+    }
+  },
+  "rewards": {
+    "function": "neoorigins_automoton:select/andesite_casing"
+  },
+  "display": {
+    "title": "Select: Andesite Casing (hidden)",
+    "description": "Interact with the configured block to select an Andesite Age ability (placeholder).",
+    "icon": {
+      "item": "create:andesite_casing"
+    },
+    "hidden": true
+  }
+}

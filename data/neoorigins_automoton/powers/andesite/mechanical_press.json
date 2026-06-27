@@ -1,0 +1,10 @@
+{
+  "type": "origins:active_self",
+  "name": "Mechanical Press (primary)",
+  "description": "Charge then release to knockback entities. Hold primary to charge; release triggers knockback based on charge.",
+  "key": "primary",
+  "action": {
+    "type": "origins:execute_command",
+    "command": "function neoorigins_automoton:abilities/andesite/mechanical_press_charge"
+  }
+}

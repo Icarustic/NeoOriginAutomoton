@@ -1,0 +1,6 @@
+{
+  "type": "origins:active_self",
+  "name": "Diving Helmet (passive)",
+  "description": "Can breathe indefinitely underwater and see clearly. Constant stress drain applied by datapack.",
+  "hidden": false
+}

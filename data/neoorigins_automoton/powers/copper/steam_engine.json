@@ -1,0 +1,10 @@
+{
+  "type": "origins:active_self",
+  "name": "Steam Engine (secondary)",
+  "description": "Manual De-Stress and special steam-mode buffs (Wake Up Call).",
+  "key": "secondary",
+  "action": {
+    "type": "origins:execute_command",
+    "command": "function neoorigins_automoton:abilities/copper/steam_engine_use"
+  }
+}

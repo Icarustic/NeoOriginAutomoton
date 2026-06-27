@@ -1,0 +1,6 @@
+{
+  "type": "origins:passive",
+  "name": "Clutch (extra)",
+  "description": "First lethal damage will leave you at 2 hearts and clear effects; cooldown 45 minutes. Implemented by datapack event logic.",
+  "hidden": false
+}

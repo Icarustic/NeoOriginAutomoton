@@ -1,0 +1,10 @@
+{
+  "type": "origins:active_self",
+  "name": "Weighted Ejector (primary)",
+  "description": "Launch yourself in the direction you are facing. 150 stress, 15s cooldown, immune to fall damage.",
+  "key": "primary",
+  "action": {
+    "type": "origins:execute_command",
+    "command": "function neoorigins_automoton:abilities/andesite/weighted_ejector_launch"
+  }
+}

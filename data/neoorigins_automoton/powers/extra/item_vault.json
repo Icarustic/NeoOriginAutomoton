@@ -1,0 +1,6 @@
+{
+  "type": "origins:passive",
+  "name": "Item Vault (extra)",
+  "description": "Keeps items on death (not armor/off-hand). Implemented in datapack via storage transfer on death.",
+  "hidden": false
+}

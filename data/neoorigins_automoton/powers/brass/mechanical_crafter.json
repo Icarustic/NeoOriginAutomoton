@@ -1,0 +1,10 @@
+{
+  "type": "origins:active_self",
+  "name": "Mechanical Crafter (tertiary)",
+  "description": "Open a crafting table anywhere. Cost: 30 stress per open.",
+  "key": "tertiary",
+  "action": {
+    "type": "origins:execute_command",
+    "command": "function neoorigins_automoton:abilities/brass/mechanical_crafter_open"
+  }
+}

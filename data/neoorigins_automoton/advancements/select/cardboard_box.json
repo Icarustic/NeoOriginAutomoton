@@ -3,7 +3,7 @@
     "interact": {
       "trigger": "minecraft:player_interacted_with_block",
       "conditions": {
-        "block": "minecraft:cardboard_box"
+        "block": "minecraft:paper"
       }
     }
   },
@@ -12,7 +12,7 @@
   },
   "display": {
     "title": "Select: Cardboard Box (hidden)",
-    "description": "Interact with the configured block to select this extra passive (placeholder).",
+    "description": "Interact with paper (placeholder) to select Cardboard Box extra doodad.",
     "icon": {
       "item": "minecraft:paper"
     },

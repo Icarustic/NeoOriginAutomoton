@@ -1,0 +1,10 @@
+{
+  "type": "origins:active_self",
+  "name": "Wrench (primary)",
+  "description": "Hold primary to repair yourself over time (manual repair). Removes Auto Repair passive.",
+  "key": "primary",
+  "action": {
+    "type": "origins:execute_command",
+    "command": "function neoorigins_automoton:abilities/andesite/wrench_hold"
+  }
+}

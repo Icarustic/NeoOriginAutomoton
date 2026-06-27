@@ -1,0 +1,6 @@
+{
+  "type": "origins:passive",
+  "name": "Machine Like (hidden)",
+  "description": "Hidden mechanical passives applied by the datapack functions.",
+  "hidden": true
+}

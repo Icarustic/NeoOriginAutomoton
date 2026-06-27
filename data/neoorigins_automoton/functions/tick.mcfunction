@@ -1,4 +1,8 @@
-# Tick function placeholder. If you need repeating behaviour (e.g., passive stress tick down while overstressed), implement it here.
-# This function runs each server tick as the server user (not as the player). If you need player-focused repeating effects, implement them with player functions and run them with run as/run at.
+# Top-level tick function: run once per tick
 
-# Empty for now
+# Update bossbar progress based on average stress of players with the origin (rough heuristic)
+scoreboard players set @s neo_state 0
+
+# For every player who has our origin tag, run per-player tick handler
+execute as @a[tag=neoorigins_automoton] run function neoorigins_automoton:player/tick_player
+

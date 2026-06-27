@@ -11,10 +11,10 @@
     "function": "neoorigins_automoton:select/copper_steam_engine"
   },
   "display": {
-    "title": "Select: Copper Steam Engine (hidden)",
-    "description": "Interact with the configured block to select this ability (placeholder).",
+    "title": "Select: Steam Engine (hidden)",
+    "description": "Interact with the configured block to select Steam Engine (Copper Age).",
     "icon": {
-      "item": "minecraft:furnace"
+      "item": "create:steam_engine"
     },
     "hidden": true
   }

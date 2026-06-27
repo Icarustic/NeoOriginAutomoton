@@ -1,0 +1,42 @@
+{
+  "name": "Automaton",
+  "description": "The Automaton origin for NeoOrigins (Neoforge 1.21.1). Choose abilities by interacting with Create blocks. This origin relies on the datapack functions in data/neoorigins_automoton/functions/ for runtime behaviour.",
+  "powers": [
+    "neoorigins_automoton:base/passives",
+    "neoorigins_automoton:base/stress_handler",
+
+    "neoorigins_automoton:andesite/andesite_casing",
+    "neoorigins_automoton:andesite/hand_crank",
+    "neoorigins_automoton:andesite/toolbox",
+    "neoorigins_automoton:andesite/wrench",
+    "neoorigins_automoton:andesite/mechanical_press",
+    "neoorigins_automoton:andesite/encased_fan",
+    "neoorigins_automoton:andesite/mechanical_drill",
+    "neoorigins_automoton:andesite/weighted_ejector",
+
+    "neoorigins_automoton:copper/copper_casing",
+    "neoorigins_automoton:copper/steam_engine",
+    "neoorigins_automoton:copper/fluid_tank",
+    "neoorigins_automoton:copper/diving_helmet",
+    "neoorigins_automoton:copper/valve",
+
+    "neoorigins_automoton:brass/brass_casing",
+    "neoorigins_automoton:brass/rotational_speed_controller",
+    "neoorigins_automoton:brass/mechanical_crafter",
+    "neoorigins_automoton:brass/mechanical_arm",
+    "neoorigins_automoton:brass/display_link",
+    "neoorigins_automoton:brass/potato_cannon",
+    "neoorigins_automoton:brass/blaze_burner",
+
+    "neoorigins_automoton:extra/cardboard_box",
+    "neoorigins_automoton:extra/stressometer",
+    "neoorigins_automoton:extra/speedometer",
+    "neoorigins_automoton:extra/seat",
+    "neoorigins_automoton:extra/cuckoo_clock",
+    "neoorigins_automoton:extra/flywheel",
+    "neoorigins_automoton:extra/train_casing",
+    "neoorigins_automoton:extra/super_glue",
+    "neoorigins_automoton:extra/item_vault",
+    "neoorigins_automoton:extra/clutch"
+  ]
+}
