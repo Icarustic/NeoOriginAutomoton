@@ -1,0 +1,9 @@
+# Update player tick handler to apply vault slowness and toolbox/cardboard behaviors
+
+# Apply vault slowness if player has vault
+execute if entity @s[tag=neoorigins_has_vault] run effect give @s minecraft:slowness 2 0 true
+
+# Cardboard invisibility: if crouching (using a tag neo_crouch simulated by client), give invisibility (placeholder)
+execute if entity @s[tag=neoorigins_has_cardboard] run effect give @s minecraft:invisibility 2 0 true
+
+# Continue existing player tick behaviour (stress natural drain handled elsewhere)

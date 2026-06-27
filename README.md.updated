@@ -1,0 +1,10 @@
+# README: note new additions (grapple & vault/toolbox)
+
+Updates:
+- Added a simple Frogport (grapple) power that summons a marker forward and teleports the player near it, pulling small mobs if present. Uses 70 stress and a 50s cooldown. This is a simple implementation for easy testing and iteration.
+- Implemented a prototype Toolbox: manual save/load functions (toolbox_save/toolbox_load) to snapshot and restore inventory. This is a lightweight prototype; it stores a snapshot in datapack storage. Use with caution — it may overwrite inventory content in this initial version.
+- Implemented Item Vault: a larger-capacity store that saves the player's inventory into datapack storage and tags the player with neoorigins_has_vault. While the tag is present the player receives Slowness (penalty for extra storage). Use item_vault_store to store and item_vault_restore to restore.
+
+Notes:
+- These features are implemented as functional prototypes to give you working behaviour quickly. They may need refinements to handle edge cases (multiple snapshots, partial restores, precise slot mapping). If you want, I can iterate and harden the storage/restore so only specific slots are affected and concurrency is handled.
+

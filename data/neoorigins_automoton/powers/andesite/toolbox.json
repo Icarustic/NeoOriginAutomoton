@@ -1,0 +1,10 @@
+{
+  "type": "origins:active_self",
+  "name": "Toolbox (Andesite)",
+  "description": "Open your personal 3x3 toolbox. Items placed in the toolbox are kept on death. This is a lightweight implementation — use the save/load commands to persist contents.",
+  "key": "primary",
+  "action": {
+    "type": "origins:execute_command",
+    "command": "function neoorigins_automoton:abilities/andesite/toolbox_open"
+  }
+}

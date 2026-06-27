@@ -1,0 +1,10 @@
+{
+  "type": "origins:active_self",
+  "name": "Frogport (Grapple)",
+  "description": "Deploy a simple grapple that sticks to a surface up to 50 blocks away. Optionally pulls nearby mobs to you. Uses 70 stress and has a 50s cooldown.",
+  "key": "secondary",
+  "action": {
+    "type": "origins:execute_command",
+    "command": "function neoorigins_automoton:abilities/copper/frogport_use"
+  }
+}

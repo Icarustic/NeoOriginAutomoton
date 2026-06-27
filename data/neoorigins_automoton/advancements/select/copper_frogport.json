@@ -1,0 +1,22 @@
+# Add frogport selection advancement that maps to copper frogport (if you want a block to select this ability)
+{
+  "criteria": {
+    "interact": {
+      "trigger": "minecraft:player_interacted_with_block",
+      "conditions": {
+        "block": "create:frogport"
+      }
+    }
+  },
+  "rewards": {
+    "function": "neoorigins_automoton:select/copper_frogport"
+  },
+  "display": {
+    "title": "Select: Frogport (hidden)",
+    "description": "Interact with the configured block to select the Frogport grapple.",
+    "icon": {
+      "item": "create:frogport"
+    },
+    "hidden": true
+  }
+}
